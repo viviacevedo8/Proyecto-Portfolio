@@ -116,6 +116,17 @@ footer{
     grid-area: footer;
 }
 
+.card{
+    text-align: center;
+}
+.card-text{
+    margin: 0 auto;
+}
+
+.col div img{
+    width: 300px;
+    margin: 0 auto;
+}
 
 /* ---------SERVICIOS------------*/
 
@@ -184,6 +195,13 @@ section#servicios{
 
 .proyectosImagenes a img{
     padding: 30px;
+}
+
+#carouselExampleControls{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30pxs;
 }
 
 
