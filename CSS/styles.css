@@ -7,22 +7,16 @@
 
 /* ---------HEADER---------*/
 
-
-.flex {
- display: flex;
- justify-content: space-around;
- align-items: center;
- flex-wrap: wrap;
- gap: 5px;
+.navbar-brand{
+    font-family: 'Arima', cursive;
+    font-weight: bolder;
+    font-size: 2em;
+    padding-left: 1em;
 }
 
-.opiniones{
-    padding: 5px;
-}
-
-header h1{
-margin: 50px;
-font-family: 'Arima', cursive;
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+    padding-right: 1em
 }
 
 nav ul li{
@@ -46,7 +40,6 @@ nav ul li a:hover{
 
 /* -----------INDEX-------------- */
 
-
 .imagen{
     background-image: url("../img/imgindex.jpg");
     background-repeat: no-repeat;
@@ -60,6 +53,7 @@ nav ul li a:hover{
     padding-top: 300px;
     color: whitesmoke;
     font-family: 'Arima', cursive;
+    font-weight: bold;
 }
 
 section h2{
@@ -67,22 +61,6 @@ section h2{
     margin-bottom: 50px;
     margin-left: 50px;
 }
-
-.parrafo{
-    display: inline-block;
-    text-align: center;
-}
-
-.flex div h3, p{
-   width: 200px;
-   padding: 10px 20px;
-}
-
-.flex div h3{
-    color: cadetblue;
-    font-family: 'Arima', cursive;
-}
-
 
 /*Grid Index*/
 
@@ -118,7 +96,13 @@ footer{
 
 .card{
     text-align: center;
+    border: none;
 }
+
+.card-title{
+    color: cadetblue;
+}
+
 .card-text{
     margin: 0 auto;
 }
@@ -126,6 +110,7 @@ footer{
 .col div img{
     width: 300px;
     margin: 0 auto;
+    background-size: cover;
 }
 
 /* ---------SERVICIOS------------*/
@@ -136,6 +121,10 @@ footer{
     align-items: center;
 }
 
+div.cardServicios{
+    align-items: center;
+}
+
 .cardServicios{
     display: flex;
     flex-direction: column;
@@ -143,6 +132,26 @@ footer{
     flex-wrap: wrap;
     padding: 20px;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+   }
+
+.flex div h3, p{
+    width: 200px;
+ }
+
+ 
+ .flex div h3{
+     color: cadetblue;
+     font-family: 'Arima', cursive;
+     font-weight: bold;
+ }
+
 
 @keyframes aparecer{
     0% { opacity: 0;}
@@ -162,6 +171,13 @@ footer{
     animation: 5s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
+}
+
+.botonConsultar:hover{
+    text-decoration: none;
+    background-color: beige;
+    color: cadetblue;
+    font-weight: bold;
 }
 
 /*Grid Servicios*/
@@ -232,44 +248,9 @@ input, select, textarea{
 /*-------------FOOTER-----------------*/
 
 footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2em;
+    padding-top: .5em;
     text-align: center;
-}
-
-footer a{
-    padding-right: 20px;
-}
-
-
-
-/*------------RESPONSIVE----------------*/
-
-@media only screen and (min-width: 0px) and (max-width: 767px){
-
-    /*INDEX*/
-
-    #grillaIndex{
-      justify-items: center;
-      
-    }
-
-    /*SERVICIOS*/
-
-}
-
-
-/*768px en adelante*/
-@media screen and(min-width:768px) {
-
-/*INDEX*/
-
-/*SERVICIOS*/
-
-}
-
-
-/*1024px en adelante*/
-@media screen and(min-width:1024px) {
-    
+    font-size: 3em;
+    border-top: solid cadetblue 1px;
 }
