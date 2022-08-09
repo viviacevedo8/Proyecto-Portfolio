@@ -1,0 +1,74 @@
+@import "variables";
+
+header{
+
+    nav div.container-fluid a.nav-brand{
+        font-family: $fuente-uno, cursive;
+        font-weight: bolder;
+        font-size: 2em;
+        padding-left: 1em;
+    }
+
+    nav div.collapse navbar-collapse ul.navbar-nav li.nav-item{
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px; 
+    }
+
+        a.nav-link{
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 20px;
+
+            &:hover{
+                background-color: $boton-hover;
+                color: $boton-fondo;
+                font-weight: bold; 
+            }
+        }
+
+}
+
+section.imagen{
+    background-image: url("../img/imgindex.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+
+    h1{
+        text-align: center;
+        padding-top: 300px;
+        color: whitesmoke;
+        font-family: $fuente-uno, cursive;
+        font-weight: bold;
+    }
+}
+
+#opiniones{
+
+    h2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .card{
+        text-align: center;
+        border: none;
+
+        h5.card-title{
+            color: $boton-fondo;
+        }
+
+        p.card-text{
+            margin: 0 auto;
+        }
+    }
+
+    .col div img {
+        width: 300px;
+        margin: 0 auto;
+        background-size: cover; }
+
+}
