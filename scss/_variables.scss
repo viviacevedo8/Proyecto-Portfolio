@@ -3,3 +3,28 @@ $boton-fondo: cadetblue;
 $boton-hover: beige;
 
 $fuente-uno: 'Arima';
+
+
+.titulosH2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+@mixin imgCard($ancho, $margin){
+    width: $ancho;
+    margin: $margin;
+}
+
+
+$general: footer;
+
+footer {
+    @if $general == footer {
+        color: $boton-fondo ;}
+
+    @else {
+        background-color: black;
+    }
+    
+}

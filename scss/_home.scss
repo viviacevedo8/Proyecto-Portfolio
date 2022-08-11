@@ -48,9 +48,7 @@ section.imagen{
 #opiniones{
 
     h2{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 50px;
+        @extend .titulosH2;
     }
 
     .card{
@@ -67,8 +65,8 @@ section.imagen{
     }
 
     .col div img {
-        width: 300px;
-        margin: 0 auto;
-        background-size: cover; }
+        @include imgCard(300px, 0 auto);
+        background-size: cover; 
+    }
 
 }

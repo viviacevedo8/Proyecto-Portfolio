@@ -1,3 +1,11 @@
+.titulosH2, #opiniones h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px; }
+
+footer {
+  color: cadetblue; }
+
 header nav div.container-fluid a.nav-brand {
   font-family: "Arima", cursive;
   font-weight: bolder;
@@ -30,11 +38,6 @@ section.imagen {
     color: whitesmoke;
     font-family: "Arima", cursive;
     font-weight: bold; }
-
-#opiniones h2 {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px; }
 
 #opiniones .card {
   text-align: center;
