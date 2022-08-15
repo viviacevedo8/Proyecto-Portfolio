@@ -160,25 +160,54 @@ footer {
     footer i:hover {
       color: #22BABB; }
 
+.titulosH2, #opiniones h2, #servicios h1 {
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
+
+footer {
+  color: cadetblue; }
+
+header nav div.container-fluid a.nav-brand {
+  font-family: "Arima", cursive;
+  font-weight: bolder;
+  font-size: 2em;
+  padding-left: 1em; }
+
+header nav div.collapse navbar-collapse ul.navbar-nav li.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px; }
+
+header a.nav-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 20px; }
+  header a.nav-link:hover {
+    background-color: beige;
+    color: cadetblue;
+    font-weight: bold; }
+
+#carouselExampleCaptions {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3em; }
+  #carouselExampleCaptions a {
+    text-decoration: none; }
+  #carouselExampleCaptions .p1 {
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: cadetblue; }
+  #carouselExampleCaptions .p2 {
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: beige; }
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif; }
-
-/*-----------PROYECTOS------------- */
-.proyectos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.proyectosImagenes a img {
-  padding: 30px; }
-
-#carouselExampleControls {
-  width: 500px;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30pxs; }
 
 /*-----------CONTACTO----------------- */
 form {

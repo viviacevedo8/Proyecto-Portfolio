@@ -1,0 +1,53 @@
+@import "variables";
+
+header{
+
+    nav div.container-fluid a.nav-brand{
+        font-family: $fuente-uno, cursive;
+        font-weight: bolder;
+        font-size: 2em;
+        padding-left: 1em;
+    }
+
+    nav div.collapse navbar-collapse ul.navbar-nav li.nav-item{
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px; 
+    }
+
+        a.nav-link{
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 20px;
+
+            &:hover{
+                background-color: $boton-hover;
+                color: $boton-fondo;
+                font-weight: bold; 
+            }
+        }
+
+}
+
+#carouselExampleCaptions{
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 3em;
+
+   a{
+    text-decoration: none;
+   }
+
+   .p1{
+    margin: 0 auto;
+    font-size: $font-size-h2;
+    color: $boton-fondo;
+   }
+
+   .p2{
+    margin: 0 auto;
+    font-size: $font-size-h2;
+    color: $boton-hover;
+    } 
+
+}
