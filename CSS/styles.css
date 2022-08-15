@@ -1,4 +1,4 @@
-.titulosH2, #opiniones h2, #servicios h1 {
+.titulosH2, #opiniones h2, #servicios h1, article h1 {
   font-size: 1.5em;
   margin-left: 1em;
   margin-top: 1.5em;
@@ -7,11 +7,16 @@
 footer {
   color: cadetblue; }
 
-header nav div.container-fluid a.nav-brand {
+header .navbar-brand {
   font-family: "Arima", cursive;
   font-weight: bolder;
   font-size: 2em;
   padding-left: 1em; }
+
+header .navbar-nav {
+  align-content: flex-end;
+  justify-content: end;
+  justify-items: end; }
 
 header nav div.collapse navbar-collapse ul.navbar-nav li.nav-item {
   list-style: none;
@@ -69,7 +74,7 @@ footer {
     footer i:hover {
       color: #22BABB; }
 
-.titulosH2, #opiniones h2, #servicios h1 {
+.titulosH2, #opiniones h2, #servicios h1, article h1 {
   font-size: 1.5em;
   margin-left: 1em;
   margin-top: 1.5em;
@@ -160,7 +165,7 @@ footer {
     footer i:hover {
       color: #22BABB; }
 
-.titulosH2, #opiniones h2, #servicios h1 {
+.titulosH2, #opiniones h2, #servicios h1, article h1 {
   font-size: 1.5em;
   margin-left: 1em;
   margin-top: 1.5em;
@@ -204,25 +209,73 @@ header a.nav-link {
     font-size: 1.5em;
     color: beige; }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif; }
+.titulosH2, #opiniones h2, #servicios h1, article h1 {
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
 
-/*-----------CONTACTO----------------- */
-form {
+footer {
+  color: cadetblue; }
+
+article h1 {
+  font-family: "Arima";
+  font-weight: bold;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 5em; }
+
+article form {
   width: 500px;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 80px; }
+  article form label, article form select, article form textarea, article form fieldset {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px; }
+    article form label input, article form label select, article form label textarea, article form select input, article form select select, article form select textarea, article form textarea input, article form textarea select, article form textarea textarea, article form fieldset input, article form fieldset select, article form fieldset textarea {
+      padding: 10px;
+      border: cadetblue solid 1px;
+      border-radius: 5px; }
+  article form .mb-3 {
+    font-family: "Arima";
+    color: cadetblue; }
+  article form input[type=submit] {
+    text-decoration: none;
+    padding: 10px;
+    background: cadetblue;
+    color: beige;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    border: none;
+    font-size: bold;
+    width: 100%;
+    margin-top: 10px; }
+    article form input[type=submit]:hover {
+      background-color: beige;
+      color: cadetblue;
+      font-weight: bold;
+      border: none; }
+  article form .form-control:focus {
+    color: #22BABB;
+    border-color: #22BABB; }
 
-label, input, select, textarea, fieldset {
-  display: inline-block;
-  width: 100%;
-  box-sizing: border-box;
-  margin-top: 20px; }
+footer {
+  margin-top: 1em;
+  padding-top: .5em;
+  text-align: center;
+  font-size: 3em;
+  border-top: solid cadetblue 1px; }
+  footer i {
+    color: cadetblue; }
+    footer i:hover {
+      color: #22BABB; }
 
-input, select, textarea {
-  padding: 10px;
-  border: 1px cadetblue;
-  border-radius: 5px; }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }

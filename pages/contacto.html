@@ -19,13 +19,11 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="../CSS/styles.css">
-
     <meta name="description" content="formulario de contacto">
 	<meta name="keywords" content="contactarme, comunicarme, enviar mensaje, enviar email">
 	<title>Viviana Acevedo | Contacto</title>
 
-
+    <link rel="stylesheet" href="../CSS/styles.css">
 
 </head>
 
@@ -66,27 +64,26 @@
                     Si tienes alguna duda sobre como puedes llevar adelante tu proyecto, dejame un mensaje.
                     ¡Estaré encantada de ayudarte!
                 </h1>
+                <form>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
 
-                <form action="#">
-                    <input type="text" placeholder="Nombre y apellido">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
+                  </div>
 
-                    <label for="email">
-                        <input type="email" placeholder="Email" name="email">
-                    </label>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dejame tu mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
 
-                    <label type="number">
-                        <input type="email" placeholder="Teléfono" name="number">
-                    </label>
-
-                    <label for="Mensaje">
-                        <textarea placeholder="Dejame tu mensaje"></textarea>
-                    </label>
-
-                    <!-- <div><input type="checkbox" name="acepta" value="1">Quiero recibir la newsletter</div> -->
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Resetear">
+                  <input type="submit" value="Enviar">
 
                 </form>
+
             </article>
         </section>
 

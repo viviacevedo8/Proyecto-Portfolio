@@ -2,11 +2,17 @@
 
 header{
 
-    nav div.container-fluid a.nav-brand{
+    .navbar-brand{
         font-family: $fuente-uno, cursive;
         font-weight: bolder;
         font-size: 2em;
         padding-left: 1em;
+    }
+
+    .navbar-nav{
+        align-content: flex-end;
+        justify-content: end;
+        justify-items: end;
     }
 
     nav div.collapse navbar-collapse ul.navbar-nav li.nav-item{
