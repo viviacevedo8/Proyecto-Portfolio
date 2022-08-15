@@ -42,6 +42,7 @@ section.imagen{
         color: whitesmoke;
         font-family: $fuente-uno, cursive;
         font-weight: bold;
+        font-size: $font-size-h1;
     }
 }
 
@@ -55,10 +56,6 @@ section.imagen{
         text-align: center;
         border: none;
 
-        h5.card-title{
-            color: $boton-fondo;
-        }
-
         p.card-text{
             margin: 0 auto;
         }
@@ -67,6 +64,30 @@ section.imagen{
     .col div img {
         @include imgCard(300px, 0 auto);
         background-size: cover; 
+    }
+
+    h3.card-title{
+        color: $boton-fondo;
+        font-size: $font-size-h2;
+        font-family: $fuente-uno;
+        font-weight: bold;
+    }
+
+}
+
+footer{
+    margin-top: 2em;
+    padding-top: .5em;
+    text-align: center;
+    font-size: 3em;
+    border-top: solid $boton-fondo 1px;
+
+    i{
+        color: $boton-fondo;
+
+        &:hover{
+            color: $boton-hover-footer;
+        }
     }
 
 }

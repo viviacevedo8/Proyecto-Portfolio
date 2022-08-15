@@ -1,0 +1,119 @@
+@import "variables";
+
+header{
+
+    nav div.container-fluid a.nav-brand{
+        font-family: $fuente-uno, cursive;
+        font-weight: bolder;
+        font-size: 2em;
+        padding-left: 1em;
+    }
+
+    nav div.collapse navbar-collapse ul.navbar-nav li.nav-item{
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px; 
+    }
+
+        a.nav-link{
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 20px;
+
+            &:hover{
+                background-color: $boton-hover;
+                color: $boton-fondo;
+                font-weight: bold; 
+            }
+        }
+
+}
+
+#servicios{
+
+    h1{
+        @extend .titulosH2;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .flex div h2, p{
+        text-align: center;
+        align-items: center;
+        width: 200px;
+
+        &:img {
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    .cardServicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px; 
+
+        h2{
+            color: $boton-fondo;
+            font-family: $fuente-uno, cursive;
+            font-weight: bold;
+            font-size: $font-size-h2;
+        }
+
+        .botonConsultar{
+            text-decoration: none;
+            padding: 5px;
+            background: $boton-fondo;
+            color: $boton-hover;
+            border-radius: 5px;
+            text-align: center;
+            animation: 5s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+
+            &:hover{
+                text-decoration: none;
+                background-color: $boton-hover;
+                color: $boton-fondo;
+                font-weight: bold;
+            }
+        }
+
+    }
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 5; }
+    100% {
+      opacity: 1; } 
+}
+
+
+footer{
+    margin-top: 1em;
+    padding-top: .5em;
+    text-align: center;
+    font-size: 3em;
+    border-top: solid $boton-fondo 1px;
+
+    i{
+        color: $boton-fondo;
+
+        &:hover{
+            color: $boton-hover-footer;
+        }
+    }
+
+}

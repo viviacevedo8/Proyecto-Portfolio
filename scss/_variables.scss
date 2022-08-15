@@ -2,13 +2,19 @@ $boton-fondo: cadetblue;
 
 $boton-hover: beige;
 
+$boton-hover-footer: #22BABB;
+
 $fuente-uno: 'Arima';
+
+$font-size-h1: 2em;
+$font-size-h2: 1.5em;
 
 
 .titulosH2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 @mixin imgCard($ancho, $margin){
