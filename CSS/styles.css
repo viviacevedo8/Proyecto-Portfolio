@@ -209,6 +209,17 @@ header a.nav-link {
     font-size: 1.5em;
     color: beige; }
 
+footer {
+  margin-top: 2em;
+  padding-top: .5em;
+  text-align: center;
+  font-size: 3em;
+  border-top: solid cadetblue 1px; }
+  footer i {
+    color: cadetblue; }
+    footer i:hover {
+      color: #22BABB; }
+
 .titulosH2, #opiniones h2, #servicios h1, article h1 {
   font-size: 1.5em;
   margin-left: 1em;
