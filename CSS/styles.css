@@ -18,6 +18,9 @@ header .navbar-nav {
   justify-content: end;
   justify-items: end; }
 
+header .navbar-collapse {
+  flex-grow: 0; }
+
 header nav div.collapse navbar-collapse ul.navbar-nav li.nav-item {
   list-style: none;
   display: inline-block;
