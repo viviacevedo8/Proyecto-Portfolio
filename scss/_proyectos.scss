@@ -29,28 +29,34 @@ header{
 
 }
 
-#carouselExampleCaptions{
-   width: 50%;
-   margin: 0 auto;
-   margin-top: 3em;
+.proyectos{
+    margin: 3em;
 
-   a{
-    text-decoration: none;
-   }
+    .card{
+        border: none;
+    }
 
-   .p1{
-    margin: 0 auto;
-    font-size: $font-size-h2;
-    color: $boton-fondo;
-   }
+    .card-body{
+        text-align: center;
+    }
 
-   .p2{
-    margin: 0 auto;
-    font-size: $font-size-h2;
-    color: $boton-hover;
-    } 
 
+    a{
+        text-decoration: none;
+        font-style: $fuente-uno;
+        color:$boton-fondo;
+        background-color: $boton-hover;
+        padding: 8px;
+        border-radius: 6px;
+        
+
+        &:hover{
+            color: $boton-hover;
+            background-color: $boton-fondo;
+        }
+    }
 }
+
 
 footer{
     margin-top: 2em;

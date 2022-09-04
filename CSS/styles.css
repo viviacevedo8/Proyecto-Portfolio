@@ -194,20 +194,22 @@ header a.nav-link {
     color: cadetblue;
     font-weight: bold; }
 
-#carouselExampleCaptions {
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 3em; }
-  #carouselExampleCaptions a {
-    text-decoration: none; }
-  #carouselExampleCaptions .p1 {
-    margin: 0 auto;
-    font-size: 1.5em;
-    color: cadetblue; }
-  #carouselExampleCaptions .p2 {
-    margin: 0 auto;
-    font-size: 1.5em;
-    color: beige; }
+.proyectos {
+  margin: 3em; }
+  .proyectos .card {
+    border: none; }
+  .proyectos .card-body {
+    text-align: center; }
+  .proyectos a {
+    text-decoration: none;
+    font-style: "Arima";
+    color: cadetblue;
+    background-color: beige;
+    padding: 8px;
+    border-radius: 6px; }
+    .proyectos a:hover {
+      color: beige;
+      background-color: cadetblue; }
 
 footer {
   margin-top: 2em;
